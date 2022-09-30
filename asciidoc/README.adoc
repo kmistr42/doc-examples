@@ -1,0 +1,39 @@
+= Asciidoctor
+
+Per the Asciidoctor site:
+[quote,Asciidoctor,'https://asciidoctor.org/[https://asciidoctor.org/]']
+
+Asciidoctor is a fast, open source, Ruby-based text processor for parsing AsciiDoc® into a document model and converting it to output formats such as HTML 5, DocBook 5, manual pages, PDF, EPUB 3, and other formats.
+
+
+== GitHub support
+
+Github supports Asciidoctor natively as a markdown
+
+== Diagrams
+
+Asciidoctor support text based diagraming through embedded diagram code
+
+=== PlantUML
+
+Here are some sample PlantUML diagrams
+
+=== Deployment Diagram
+
+[plantuml, diagram-version, svg]
+....
+@startuml
+
+node node1
+node node2
+node node3
+node node4
+node node5
+node1 -- node2 : label1
+node1 .. node3 : label2
+node1 ~~ node4 : label3
+node1 == node5
+
+@enduml
+....
+
