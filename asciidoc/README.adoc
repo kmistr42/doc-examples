@@ -21,7 +21,7 @@ Here are some sample PlantUML diagrams
 === Deployment Diagram
 
 [plantuml, diagram-version, svg]
-....
+----
 @startuml
 
 node node1
@@ -35,5 +35,5 @@ node1 ~~ node4 : label3
 node1 == node5
 
 @enduml
-....
+----
 
